@@ -7,8 +7,11 @@ Cmd: preprocessCompute
 Cmd: compileComputeKernel
   api=9 insize=3273 outsize=10627 ok=1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Cmd: compileComputeKernel
   api=15 insize=3273 outsize=10453 ok=1
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 Cmd: preprocessCompute
@@ -18,6 +21,7 @@ Cmd: compileComputeKernel
 Cmd: preprocessCompute
   insize=1431 outsize=1435 ok=1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Cmd: compileComputeKernel
   api=9 insize=1435 outsize=5684 ok=1
 Cmd: compileComputeKernel
@@ -26,6 +30,10 @@ Cmd: preprocessCompute
   insize=1522 outsize=1526 ok=1
 Cmd: compileComputeKernel
   api=9 insize=1526 outsize=5935 ok=1
+=======
+Cmd: preprocessCompute
+  insize=1522 outsize=1526 ok=1
+>>>>>>> Stashed changes
 =======
 Cmd: preprocessCompute
   insize=1522 outsize=1526 ok=1
