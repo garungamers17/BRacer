@@ -6,14 +6,18 @@ Cmd: preprocessCompute
   insize=3267 outsize=3273 ok=1
 Cmd: compileComputeKernel
   api=9 insize=3273 outsize=10627 ok=1
+<<<<<<< Updated upstream
 Cmd: compileComputeKernel
   api=15 insize=3273 outsize=10453 ok=1
+=======
+>>>>>>> Stashed changes
 Cmd: preprocessCompute
   insize=2341 outsize=2343 ok=1
 Cmd: compileComputeKernel
   api=9 insize=2343 outsize=5500 ok=1
 Cmd: preprocessCompute
   insize=1431 outsize=1435 ok=1
+<<<<<<< Updated upstream
 Cmd: compileComputeKernel
   api=9 insize=1435 outsize=5684 ok=1
 Cmd: compileComputeKernel
@@ -22,6 +26,10 @@ Cmd: preprocessCompute
   insize=1522 outsize=1526 ok=1
 Cmd: compileComputeKernel
   api=9 insize=1526 outsize=5935 ok=1
+=======
+Cmd: preprocessCompute
+  insize=1522 outsize=1526 ok=1
+>>>>>>> Stashed changes
 Cmd: compileSnippet
   api=15 type=0 insize=1582 outsize=2303 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
 Cmd: compileSnippet
