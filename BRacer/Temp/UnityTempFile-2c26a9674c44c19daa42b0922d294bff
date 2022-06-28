@@ -1,0 +1,414 @@
+/target:library
+/out:"Temp/Assembly-CSharp.dll"
+/nowarn:0169
+/nowarn:0649
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
+/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
+/reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+/reference:"Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"/home/kalilinux/Unity/Hub/Editor/2019.4.38f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/define:UNITY_2019_4_38
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_LINUX
+/define:UNITY_STANDALONE_LINUX
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_LINUX_API
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_LINUX
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CROSS_PLATFORM_INPUT
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"Assets/Highway Racer/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Attributes/MinAttribute.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Attributes/TrackballAttribute.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/BloomComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/ColorGradingComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/DitheringComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/FogComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/FxaaComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/GrainComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/MotionBlurComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/TaaComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/UserLutComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Components/VignetteComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/AntialiasingModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/BloomModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/ColorGradingModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/DepthOfFieldModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/DitheringModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/EyeAdaptationModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/FogModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/GrainModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/MotionBlurModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/UserLutModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Models/VignetteModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/PostProcessingBehaviour.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/PostProcessingComponent.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/PostProcessingContext.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/PostProcessingModel.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/PostProcessingProfile.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Utils/ColorGradingCurve.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Utils/GraphicsUtils.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Utils/MaterialFactory.cs"
+"Assets/Highway Racer/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
+"Assets/Highway Racer/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Caliper.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_CarControllerV3.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_ChangableWheels.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Chassis.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_ColorPickerBySliders.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_CreateAudioSource.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Customization.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_CustomizerExample.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_DashboardColors.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_DashboardInputs.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_DashboardObjects.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Exhaust.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_GetBounds.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_GroundMaterials.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_HoodCamera.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_InfoLabel.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Light.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_LightEmission.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Mirror.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_MobileButtons.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_PlayerPrefsX.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_PoliceSiren.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_SceneManager.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Settings.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_ShadowRotConst.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_Skidmarks.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_SuspensionArm.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_TruckTrailer.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_UIController.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_UIDashboardButton.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_UIDashboardDisplay.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_UISliderTextReader.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_UISteeringWheelController.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_WheelCamera.cs"
+"Assets/Highway Racer/RealisticCarControllerV3/Scripts/RCC_WheelCollider.cs"
+"Assets/Highway Racer/Scripts/HR_BarrierCollisionProtector.cs"
+"Assets/Highway Racer/Scripts/HR_Bomb.cs"
+"Assets/Highway Racer/Scripts/HR_BoundsExtension.cs"
+"Assets/Highway Racer/Scripts/HR_ButtonSlideAnimation.cs"
+"Assets/Highway Racer/Scripts/HR_ButtonSound.cs"
+"Assets/Highway Racer/Scripts/HR_CarCamera.cs"
+"Assets/Highway Racer/Scripts/HR_Controller_Type.cs"
+"Assets/Highway Racer/Scripts/HR_CountAnimation.cs"
+"Assets/Highway Racer/Scripts/HR_DirectionalLight_RT.cs"
+"Assets/Highway Racer/Scripts/HR_DynamicScoreDisplayer.cs"
+"Assets/Highway Racer/Scripts/HR_GameOverPanel.cs"
+"Assets/Highway Racer/Scripts/HR_GamePlayHandler.cs"
+"Assets/Highway Racer/Scripts/HR_GetBounds.cs"
+"Assets/Highway Racer/Scripts/HR_GraphicsLevel.cs"
+"Assets/Highway Racer/Scripts/HR_HeadlightProjector.cs"
+"Assets/Highway Racer/Scripts/HR_HighwayRacerProperties.cs"
+"Assets/Highway Racer/Scripts/HR_ImageEffects.cs"
+"Assets/Highway Racer/Scripts/HR_ImageEffects_AO.cs"
+"Assets/Highway Racer/Scripts/HR_ImageEffects_Bloom.cs"
+"Assets/Highway Racer/Scripts/HR_ImageEffects_HQLights.cs"
+"Assets/Highway Racer/Scripts/HR_ImageEffects_MotionBlur.cs"
+"Assets/Highway Racer/Scripts/HR_LensFlare.cs"
+"Assets/Highway Racer/Scripts/HR_MainMenuHandler.cs"
+"Assets/Highway Racer/Scripts/HR_ModApplier.cs"
+"Assets/Highway Racer/Scripts/HR_ModHandler.cs"
+"Assets/Highway Racer/Scripts/HR_ModificationColor.cs"
+"Assets/Highway Racer/Scripts/HR_ModificationUpgrade.cs"
+"Assets/Highway Racer/Scripts/HR_ModificationWheel.cs"
+"Assets/Highway Racer/Scripts/HR_OptionsHandler.cs"
+"Assets/Highway Racer/Scripts/HR_PlayerCars.cs"
+"Assets/Highway Racer/Scripts/HR_PlayerHandler.cs"
+"Assets/Highway Racer/Scripts/HR_ReflectiveShaderSwitcher.cs"
+"Assets/Highway Racer/Scripts/HR_RoadPooling.cs"
+"Assets/Highway Racer/Scripts/HR_SetLightmapsManually.cs"
+"Assets/Highway Racer/Scripts/HR_ShadowRotConst.cs"
+"Assets/Highway Racer/Scripts/HR_TrafficCar.cs"
+"Assets/Highway Racer/Scripts/HR_TrafficPooling.cs"
+"Assets/Highway Racer/Scripts/HR_Viewport.cs"
+"Assets/Highway Racer/Scripts/HR_Watermark.cs"
+"Assets/Highway Racer/Scripts/HR_Wheels.cs"
+"Assets/Highway Racer/Scripts/PlayerPrefsX.cs"
